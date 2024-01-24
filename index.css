@@ -33,10 +33,12 @@ body{
     border-radius: 50%;
     border: 2px ridge rgb(0, 179, 255);
     box-shadow: -4px -4px 10px rgba(67,67,67,0.5),
-    inset 4px 4px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 11px rgba(0,0,0,0.5),
     inset -4px -4px 10px rgba(67,67,67,0.5),
     4px 4px 10px rgba(0,0,0,0.3);
     position: relative;
+    background-image: url(./images/download.jpeg);
+    background-size: cover;
    
 }
 
@@ -47,7 +49,7 @@ body{
     font-style: italic;
     top: 35%;
     left: 50%;
-    
+    background-size: cover; 
     transform: translate(-50%,-50%);
 }
 
@@ -151,32 +153,3 @@ body{
 }
 
 
-/* digital.css */
-
-
-.container{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    display: grid;
-    font-size: 2rem;
-    margin-left: 150px;
-
-}
-
-#wrapper{
-    padding: 3rem;
-    
-}
-#wrapper2{
-    /* padding: 3rem; */
-    
-}
- 
-.container span{
-    margin-left: 3px;
-}
-
-#ampm{
-    font-size: 3px;
-    align-items: end;
-}
